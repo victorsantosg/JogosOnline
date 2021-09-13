@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tente a Sorte</title>
+    <script>
+        var dado;
+
+        function iniciar() {
+            var button = document.getElementById("rolar");
+            button.addEventListener("click", rolar, false);
+            dado = document.getElementById("dado");
+        }
+
+        function rolar() {
+            setImage(dado);
+        }
+
+        function setImage(dado) {
+            var valor = Math.floor(1 + Math.random() * 6);
+            dado.setAttribute("src", "dados-funcao-" + valor + ".png");
+        }
+        window.addEventListener("load", iniciar, false);
+    </script>
+</head>
+
+<body>
+    <div id="cab">
+        <div id=" imagem ">
+            <img src="jogos3.png.jpeg" width="100">
+        </div>
+        <form action="#">
+            <input id="rolar" type="button" value="Rodar Dados">
+        </form>
+        <img id="dado" src="dados-funcao-0.png">
+</body>
+
+</html>

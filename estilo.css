@@ -1,0 +1,53 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1em;
+    }
+    
+    #cab {
+        background-color: rgb(201, 166, 101);
+        padding: 20px;
+        text-align: center;
+    }
+    
+    #Jogo_Da_Velha.html,
+    #velha.js {
+        background-color: rgb(201, 166, 101);
+        padding: 100px;
+        text-align: center;
+    }
+    
+    #imagem,
+    #logo,
+    #menu {
+        padding: 20px;
+    }
+    
+    h1 {
+        color: blue;
+        font-size: 2.5em;
+    }
+    
+    #site {
+        color: white;
+    }
+    
+    a {
+        text-decoration: none;
+        padding: 18px 12px;
+    }
+    
+    a:link,
+    a:visited {
+        color: white;
+    }
+    
+    a:hover {
+        color: orange;
+        background-color: white;
+    }
